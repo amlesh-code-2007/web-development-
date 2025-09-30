@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #0f0f0f;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+section {
+    min-height: 100vh;
+    padding: 6rem 2rem 2rem;
+    text-align: center;
+}
+
+#home {
+    background-image: url(restaurant.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #888888;
+}
+
+#menu {
+    background-color: #fff;
+}
+
+.image-import1 {
+    height: 200px;
+    width: 250px;
+    background-image: url(grillied-salmon.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 50px;
+    box-shadow: 0 0 30px rgb(156, 141, 141);
+}
+
+.image-import2 {
+    height: 200px;
+    width: 250px;
+    background-image: url(pasta-primavera.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0 0 30px rgb(156, 141, 141);
+}
+
+.image-import3 {
+    height: 200px;
+    width: 250px;
+    background-image: url(steak-frites.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0 0 30px rgb(156, 141, 141);
+}
+
+.image-import4 {
+    height: 200px;
+    width: 250px;
+    background-image: url(chocolate-lava-cake.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0 0 30px rgb(156, 141, 141);
+}
+
+.image-import5 {
+    height: 200px;
+    width: 250px;
+    background-image: url(spring-rolls.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0 0 30px rgb(156, 141, 141);
+}
+
+.image-import6 {
+    height: 200px;
+    width: 250px;
+    background-image: url(stuffed-mushrooms.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0 0 30px rgb(156, 141, 141);
+}
+
+.image-import7 {
+    height: 200px;
+    width: 250px;
+    background-image: url(garlic-bread.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0 0 30px rgb(156, 141, 141);
+}
+
+.image-import8 {
+    height: 200px;
+    width: 250px;
+    background-image: url(egg-rolls.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0 0 30px rgb(156, 141, 141);
+}
+
+.image-import9{
+    height: 200px;
+    width: 250px;
+    background-image: url(grilled-chicken.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow:0 0  30px rgb(156, 141, 141);
+}
+
+.image-import10{
+    height: 200px;
+    width: 250px;
+    background-image: url(vegetable-stir-fry.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow:0 0  30px rgb(156, 141, 141);
+}
+
+.image-import11{
+    height: 200px;
+    width: 250px;
+    background-image: url(slow-cooked-vegetable-curry.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow:0 0  30px rgb(156, 141, 141);
+}
+
+.image-import12{
+    height: 200px;
+    width: 250px;
+    background-image: url(oreo-chocolate-stack.jpeg);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow:0 0  30px rgb(156, 141, 141);
+}
+
+#booking {
+    background-image: url(book-table.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #888888;
+}
+
+#about {
+    background-image: url(inside-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #888888;
+}
+
+#contact {
+    background-image: url(restuarant1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #888888;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: #7a1616;
+}
+
+marquee {
+    margin-bottom: 1rem;
+    color: #acacae;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: rgb(173, 221, 14);
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.menu-item {
+    background-color: #f9f9f9;
+    border-radius: 50px;
+
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input,
+textarea,
+button {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
