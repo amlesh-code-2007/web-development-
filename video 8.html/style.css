@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(190, 141, 75);
+    background-image: url(AMLESH\ IMG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    color: rgb(86, 92, 92);
+}
+
+li {
+    color: rgb(96, 9, 172);
+}
+
+h2 {
+    color: rgb(138, 59, 212);
+}
+
+h3 {
+    color: rgb(184, 15, 71);
+}
