@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Segoe UI";
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+    list-style: none;
+}
+
+.marks-section {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    border-bottom: 2px dotted;
+    border-top: 2px dotted;
+}
+.main-section img {
+    margin-right: 10px;
+}
+.box{
+    justify-content: space-between;
+    border-bottom: 2PX dotted;
+}
+.main{
+    border-bottom: 2px dotted;
+}
+.hey{
+    border-bottom: 2px dotted;
+}
+.ha{
+    border-bottom: 2px dotted;
+}
+main-container{
+    border-bottom: 2px dotted;
+}

@@ -1,0 +1,87 @@
+<!-- Some Styling which can use to make good Website -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+
+        /* .box:last-child{
+            background-color: blue;
+        } */
+
+        /* .box:nth-child(even){
+            background-color: rgb(231, 138, 15);
+        } */
+
+        /* p, a, .box, [data-color="primary"] {
+            padding-top: 45px;
+        } */
+
+        /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+        } */
+
+        /* .box:nth-last-child(2){
+            background-color: blanchedalmond;
+        } */
+
+        /* .boxes::before {
+             content:"Hey Amlesh is very attractive person";
+             color: pink;
+        } */
+
+        /* .boxes::after {
+            content:"Hey Amlesh How are you";
+            color: brown;
+        } */
+
+        ::selection {
+            background-color: black;
+            color: aqua;
+        }
+
+        .box::first-letter {
+            font-size: 45px;
+            color: peru;
+        }
+
+        .box::first-line {
+            color: bisque;
+            font-size: 30px;
+        }
+
+        input::placeholder {
+            background-color: beige;
+            color: rgb(226, 104, 23);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            quisquam nobis quas. Amet, rerum maiores. Sunt nulla recusandae aut placeat commodi ducimus dolor, sequi
+            magni quaerat sint dolorem alias, cupiditate quam praesentium esse itaque inventore velit deleniti explicabo
+            quasi. Quas rem cumque voluptatum sapiente officiis excepturi illum delectus qui minus cupiditate, eos
+            repellat, illo soluta ut. Delectus vel error quos dolor velit iusto magnam esse dolorum accusamus officiis?
+            Officiis asperiores necessitatibus accusantium quia aut, quae fugit culpa vero repudiandae. Consectetur
+            veniam sit maxime at? Rerum optio eos numquam vel iusto excepturi sed voluptatum, veniam saepe aspernatur
+            distinctio, provident minima perferendis tempore consectetur quaerat, ipsum facere officia cupiditate fugit
+            sit earum nemo recusandae rem! In magnam, quis sunt ab, recusandae tenetur rem voluptatum eum dolorum
+            officiis excepturi officia. Veritatis, vel? Incidunt voluptate temporibus mollitia sit impedit. Velit, at
+        </div>
+        <div class="box">Hey i am Amlesh</div>
+        <div class="box">Hey i am Amlesh</div>
+        <input placeholder="Hlw guys What do u think about my website">
+    </div>
+</body>
+
+</html>
