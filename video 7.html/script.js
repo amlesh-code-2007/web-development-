@@ -1,0 +1,1 @@
+alert( "This is a some details of my friend")
