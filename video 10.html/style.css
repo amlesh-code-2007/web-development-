@@ -1,0 +1,92 @@
+body{
+    background-color: #d2e4cb;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.base{
+    width: 500px;
+    border-top: 5px solid rgb(192, 113, 113);
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding: 0 0 30px;
+}
+.holder{
+    width: 25px;
+    height: 20px;
+    margin: auto;
+    background: #8f2424;
+    border-radius: 0 0 50% 50%;
+}
+.thread{
+    width: 1px;
+    height: 300px;
+    position: relative;
+    background: #000;
+    border-radius: 5px;
+    display: inline-block;
+    transform-origin: 50% 0;
+    animation: movit 2.5s ease-in-out infinite;
+}
+.thread after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 50px;
+    border: #a11818;
+    background: rgb(201, 125, 125);
+    border-radius: 50%;
+    top: -4.4px;
+    left: -3.5px;
+}
+.knob{
+    width: 10px;
+    height: 10px;
+    background: #a90a0a;
+    border: 2px rgba(255,255,255,0.5);
+    border-radius: 50%;
+    border-bottom: 2px solid transparent;
+    position: absolute;
+    top: -18px;
+    left: -4.5px;
+}
+.pendulum{
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle at 70% 45%,rgb(194, 29, 29),#63b363 30%,#67913d 50%);
+    border-radius: 80%;
+    position: absolute;
+    bottom: -1px;
+    left: -9px;
+}
+.shadow{
+    width: 30px;
+    height:15px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 50px;
+    margin: 5px auto;
+    animation: moveshade 1.25s ease-in-out alternate infinite;
+}
+@keyframes movit {
+    0%,100%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+}
+@keyframes moveshade{
+    0%{
+        transform:translatex(-220px) scale(1.4, 0.5);
+        filter:blur(20px);
+    }
+    50%{
+        filter: blur(3px);
+    }
+    100%{
+        transform: translatex(-220px) scaler(1.4,0.5);
+        filter: blur(20px);
+    }
+}
+
