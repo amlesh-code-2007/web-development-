@@ -1,0 +1,17 @@
+body{
+    background-image: url(image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    color: white;
+}
+h1{
+    color: rgb(75, 184, 48);
+}
+h2{
+    color: blueviolet;
+}
+center{
+    color: rgb(174, 4, 4);
+}
